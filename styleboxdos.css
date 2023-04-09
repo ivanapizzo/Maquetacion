@@ -1,0 +1,173 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.padre {
+
+display: flex; 
+flex-direction: row;
+border: 6px solid rgb(216, 215, 215);
+/* justify-content: space-between; */
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+flex-wrap: wrap;
+/* justify-content: center; */
+margin : 1%;
+padding: 1%;
+border-radius: 2%;
+
+/*gap: 20px; se supone que con esto GAP se puede crear espacio*/
+
+}
+
+.hijo1 {
+
+    /* flex-direction: row;
+    flex-direction: column; */
+    border: 7px solid rgb(176, 200, 144);
+    height: 150px;
+    width: 100%;
+    padding: 2%;
+    /* order: 1; */
+    border-radius: 2%;
+
+}
+
+.hijo2 {
+
+    flex-direction: row;
+    border: 5px solid rgb(191, 161, 193);
+    height: 80px;
+    width: 100%;
+    /* margin-top: 2%; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* order: 2; */
+    padding: 2%;
+    border-radius: 2%;
+
+
+}
+
+.hijo3 {
+
+        border: 5px solid rgba(70, 146, 194, 0.944);
+        height: 900px;
+        width: 65%;
+        /* justify-content: space-between; */
+        /* order: 3; */
+        padding: 1%;
+        border-radius: 2%;
+        
+}
+
+.hijo4 {
+
+    flex-direction: row;
+    border: 5px solid rgb(205, 179, 134);
+    height: 900px;
+    width: 35%;
+    float: left;
+    /* order: 4; */
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.hijo3bis {
+    border: 5px solid rgb(176, 200, 144);
+    /* display: flex; */
+    height: 85px;
+    width: 100%;
+    /* margin-top: 3%; */
+    margin-bottom: 60%;  
+    /* float: left;
+    margin-top: 3%; */
+    padding: 0.5%;
+    border-radius: 3%;
+}
+
+.hijo3bis2 {
+
+    flex-direction: row;
+    /* display: flex; */
+    border: 5px solid rgb(156, 68, 145);
+    height: 60px;
+    width: 100%;
+    /* margin-bottom : 3%; */
+    /*margin-bottom: 0%; */
+    /* margin-top: 0% 50%; */
+    margin-bottom: 0%;
+    padding: 0,5%;
+    border-radius: 2%;
+}
+
+.hijo3bis3 {
+
+    flex-direction: row;
+    /* display: flex; */
+    border: 5px solid rgb(156, 68, 145);
+    height: 60px;
+    width: 100%;
+    padding: 0%;
+    /* margin-top: 0%;
+    margin-bottom: 5%; */
+    border-radius: 2%;
+    align-items: center;
+}
+
+.hijo3bis4 {
+
+    /* flex-direction: row; */
+    /* display: flex; */
+    border: 5px solid rgb(202, 228, 165);
+    height: 40px;
+    width: 100%;
+    padding: 1%;
+    margin-bottom : 3%;
+    /* margin-top: 0%;
+    margin-bottom: 0%; */
+    border-radius: 2%;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.aside {
+
+    /* flex-direction: column; */
+    border: 5px solid rgb(76, 193, 199);
+    height: 47%;
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.aside2 {
+
+    flex-direction: column;
+    border: 5px solid rgb(76, 193, 199);
+    height: 47%;
+    width: 100%;
+    align-items: center;
+    padding: 1%;
+    border-radius: 2%;
+    
+}
+
+.hijo10 {
+
+    flex-direction: row;
+    border: 5px solid rgb(202, 228, 165);
+    height: 60px;
+    width: 100%;
+    padding: 1%;
+    border-radius: 2%;
+    align-items: end;
+
+}
