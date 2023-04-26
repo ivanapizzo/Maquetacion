@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud Company</title>
     <link rel="stylesheet" href="trip.css">
+    <script src="trip.js"></script>
 </head>
 <body>
     
@@ -13,7 +14,7 @@
     <nav>
         <div>
             <h1>
-            <img class="img_trip" src="nube.png" alt="">
+            <img class="img_trip" src="/Maquetacion/agenciaDeViajes/logo/nube.png" alt="">
             </h1>
         </div>
 
@@ -134,24 +135,36 @@ The people of the Maldives islands are widely dispersed across the atolls,<br> w
                 <h1>
                     Busca el mejor viaje para vos
                 </h1>
-                <input class="nombre" type="text" placeholder="Nombre">
-                <input class="origen" type="text" placeholder="Origen">
-                <input class="destino" type="text" placeholder="Destino">
-                <input class="personas" type="text" placeholder="Número de personas">
-                <input class="fecha" type="text" placeholder="Fecha">
-                
-                <input class="solinfo" type="button" value="Solicitar información">
-                <input class="filtrar" type="button" value="Filtrar">
+                <input id="nombre" class="nombre" type="text" placeholder="Nombre">
+                <input id="origen"  class="origen" type="text" placeholder="Origen">
+                <input id="destino" class="destino" type="text" placeholder="Destino">
+                <input id="personas" class="personas" type="text" placeholder="Número de personas">
+                <input id="fecha" class="fecha" type="text" placeholder="Fecha">
+                <input id="solinfo" class="solinfo" type="button" onclick="contacto()" value="Solicitar información">
+                <input id="filtrar" class="filtrar" type="button" onclick="filter()" value="Filtrar">
 
                 <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
             </form>
             <div>
-                <img class="img_trip2" src="nube2.png" alt="">
+                <img class="img_trip2" src="/Maquetacion/agenciaDeViajes/logo/nube2.png" alt="">
             </div>
         </div>
+
+        <aside class="aside aside2">
+            <table class= "table" id="newContact">
+                    <!-- <tr class="table__head">
+                        <th>Nombre</th>
+                        <th>Origen</th>
+                        <th>Destino</th>
+                        <th>Númeror de Personas</th>
+                        <th>Fecha</th>
+                    </tr> -->
+            </table>
+        </aside>
+
         <footer>
             <div>
-                <img class="img_trip3" src="nube.png" alt="">
+                <img class="img_trip3" src="/Maquetacion/agenciaDeViajes/logo/nube.png" alt="">
             <!-- </div>
             <div> -->
                 <h1>
