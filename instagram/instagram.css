@@ -1,0 +1,602 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.daddy {
+
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    /* border: solid 2px red; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.bigSon {
+
+    display: block;
+    width: 390px;
+    height: 580px;
+    /* border: solid 2px pink; */
+    margin-right: 27px;
+    margin-top: 32px;
+    
+}
+
+.perfil_img {
+
+    display: block;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+
+.littleSon {
+
+    display: block;
+    width: 360px;
+    height: 580px;
+    /* border: solid 2px blue; */
+    margin-top: 35px;
+    align-items: center;
+
+}
+
+
+.rectangulo_grande {
+
+    width: 98%;
+    height: 74%;
+    border: solid 1.5px rgba(202, 201, 199, 0.467);
+    margin-top: 4%;
+}
+
+.contenedor_logo {
+
+    display: flex;
+    width: 100%;
+    height: 130px;
+    /* border: solid 2px peru; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img {
+
+    height: 65px;
+    width: 50%;
+
+}
+
+
+.inputs_contenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 100%;
+    /* border: solid 2px yellowgreen; */
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}
+
+
+.input {
+
+    display: flex;
+    width: 75%;
+    height: 35px;
+    color: rgb(153, 149, 149);
+    font-size: 12px;
+    text-decoration: none;
+    float: center;
+    border: solid 1.1px rgba(202, 199, 199, 0.689);
+    background-color: rgba(230, 227, 227, 0.187);
+    border-radius: 0.3em;
+    
+    
+}
+
+.input::placeholder {
+
+    letter-spacing: 0.1px;
+    padding: 3%;
+}
+
+
+.submit {
+
+    display: flex;
+    width: 77%;
+    height: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(82, 158, 229);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: .6em;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    float: center;
+}
+
+
+.contenedor_divisor {
+
+    display: flex;
+    width: 100%;
+    height: 40px;
+    /* border: solid 5px rgb(0, 0, 0); */
+    align-items: center;
+    justify-content: center;
+}
+
+.divisor_img {
+
+    height: 40px;
+    width: 90%;
+}
+
+
+.contenedor_inicio_facebook {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 98px;
+    /* border: solid 7px rgb(0, 203, 239); */
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.contenedor_facebook_img {
+
+    display: flex;
+    height: 60px;
+    width: 25%;
+    /* border: solid 2px rgb(104, 168, 59); */
+    align-items: center;
+    justify-content: right;
+}
+
+.facebook_img {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.inicio_facebook {
+
+    display: flex;
+    height: 60px;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #385185;
+    /* border: solid 2px rgb(0, 255, 0); */
+    align-items: center;
+    justify-content: left;
+    margin-left:7px;
+    
+}
+
+.inicio_facebook_contraseña {
+
+    display: flex;
+    height: 18px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #385185;
+    /* border: solid 2px goldenrod; */
+    margin-bottom: 8%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.rectangulo_chico {
+
+    width: 100%;
+    height: 28%;
+    /* border: solid 5px black; */
+}
+
+
+.registrate {
+
+    display: flex;
+    width: 98%;
+    height: 38%;
+    border: solid 1.5px rgba(202, 201, 199, 0.467);
+    margin-top: 2.5%;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.registrate_a {
+
+    font-weight: bold;
+    color:  rgb(82, 158, 229);
+    text-decoration: none;
+}
+
+
+.contenedor_aplicacion_img {
+
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* border: solid 5px orange; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+}
+
+
+.aplicacion_img {
+
+    width: 328px;
+    height: 98px;
+}
+
+
+footer {
+
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    margin-top: 7%;
+    /* border: solid 2px green; */
+}
+
+.footer_linea1 {
+
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* border: solid 2px blue; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+.footer_linea1 a {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0.5%;
+    /* letter-spacing: 0.1px; */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_linea2 {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: solid 2px rgb(0, 255, 38); */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer_linea2 a {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    letter-spacing: 0.1px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 
+1. 1827 a 1192 Modo escritorio
+
+2. en 1131 el ultimo link del footer baja
+
+3. 1044 el anteultimo link del footer baja
+
+
+4. 859 aca solo queda en log-in y se va lo que es la imagen del celular (big son)
+
+
+5. 813 "instagram lite" tambien pasa abajo"
+
+
+6. 708 "Ubicaciones" pasa abajo
+
+7. 633 "Cuentas Destacadas" pasa abajo
+
+8. 570 ahora tenemos 3 reglones del footer-1 en donde "subir contactos y personas no usuarias" + meta verified van abajo de todo y en el medio estan "cuentas destacadas, ubicaciones  e instagram lite.  
+
+
+9. 504 "Condiciones" pasa al segundo reglon. 
+
+
+10. 448 ahora ya no hay bordes grises en los rectangulos y se crea mas espacio entre la parte de iniciar sesion con facebook, crerar cuenta y descargar app. 
+
+
+11. 424 instagram lite" pasa al tercer reglon 
+
+
+12. 391 Ubicaciones pasa al tercer reglon
+
+ */
+
+
+
+@media screen and (max-width: 1826px) and (min-widht: 1191px){
+
+/* 
+    .bigSon {
+
+        display: block;
+        width: 24%;
+        height: 94%;
+        border: solid 2px pink;
+        margin-right: 1.5%;
+        margin-top: 5%;
+        
+    }
+
+    .littleSon {
+
+        display: block;
+        width: 22%;
+        height: 90%;
+        border: solid 2px blue; 
+
+
+    } */
+
+
+
+    .perfil_img {
+
+        display: none;
+        float: left;
+        height: 0;
+        width: 0;
+    }
+
+.rectangulo_grande {
+
+    width: 98%;
+    height: 74%;
+    border: solid 1.5px rgba(202, 201, 199, 0.467);
+    margin-top: 4%;
+}
+
+.contenedor_logo {
+
+    display: flex;
+    width: 100%;
+    height: 130px;
+    /* border: solid 2px peru; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img {
+
+    height: 65px;
+    width: 50%;
+
+}
+
+
+footer {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer_linea1 a {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 2%; */
+}
+
+
+}
+
+
+
+@media screen and (max-width: 1231px) {
+
+    footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        /* height: 100%; */
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+
+    .footer_linea1 {
+
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10px;
+        /* border: solid 2px blue; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%; 
+    
+    }
+
+
+    .footer_linea1 a {
+
+        display: block;
+        flex-wrap: wrap;
+        /* margin-top: 2%; */
+    }
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+    .bigSon {
+
+        display: none;
+    }
+
+
+    .littleSon {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        float: center;
+        /* margin-top: 10%; */
+        
+    }
+
+
+.contenedor_aplicacion_img {
+
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+    margin-top: 5%;
+}
+
+
+.aplicacion_img {
+
+    width: 328px;
+    height: 98px;
+}
+
+    footer {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer_linea1 {
+
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        width: 100%;
+        height: 10px;
+        /* border: solid 2px blue; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%; 
+    
+    }
+
+
+    .footer_linea1 a {
+
+        display: block;
+        flex-wrap: wrap;
+        /* margin-top: 2%; */
+    }
+
+
+    .footer_linea2 {
+
+        height: 8px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+    .daddy {
+
+        margin: 0;
+        align-items: auto;
+    }
+    
+    .rectangulo_grande {
+
+        display: block;
+        border: none;
+        margin: 0;
+        
+    }
+
+
+    .contenedor_logo {
+
+        height: auto;
+        margin-bottom: 8%;
+    }
+
+
+
+    .contenedor_inicio_facebook {
+
+        margin: 0;
+    }
+
+    .registrate {
+
+        display: inline-block;
+        border: none;
+        padding: 10%;
+        margin-left: 8%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 445px){
+
+    footer {
+
+        margin-top: 20%;
+    }
+}
