@@ -1,0 +1,147 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+
+
+.grid {
+
+    display: grid;
+    /* text-align: center; */
+    /* width: 1890px; */
+    height: 950px;
+    color: white;
+    grid-template-columns: [x1] 2fr [x2] 2fr [x3] 2fr [x4] 2fr [x5];
+    grid-template-rows: [y1]1fr [y2] 6fr [y3] 1fr [y4];
+
+}
+
+
+.header {
+
+    display: grid;
+    background-color: black;
+    font-size: 40px;
+    grid-column: x1 / x5;
+    grid-row: y1;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+/* ------- AZUL -------- */
+
+.azul {
+
+    grid-column: x1 / x4;
+    grid-row: y2;
+    background-color: blue;
+    padding: 35px;
+}
+
+
+.contenido {
+
+    border: solid 1px white;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    font-size: 40px;
+}
+
+.textos {
+
+    display: flex;
+    
+}
+
+
+.texto1 {
+
+    border: solid 1px white;
+
+    height: 460px;
+    width: 800px;
+    margin-top: 1%;
+    margin-right: 0.5%;
+    padding: 15px;
+
+}
+
+.texto2 {
+
+    border: solid 1px white;
+    margin-top: 1%;
+    width: 450px;
+    height: 460px;
+    padding: 15px;
+}
+
+
+
+/* ------- VERDE -------- */
+
+.verde {
+
+    grid-column: x4;
+    grid-row: y2;
+    background-color: rgb(113, 187, 143);
+    padding: 20px; 
+    text-align: center;
+}
+
+
+.menu {
+
+    align-content: center;
+    font-size: 40px;
+    width: 380px;
+    height: 160px;
+    border: 2px solid black;
+    justify-items: center;
+    padding: 15%;
+}
+
+.menu_bebes {
+
+    margin-top: 10px;
+    /* padding: 5%; */
+    background-color: black;
+    padding: 3%;
+    width: 380px;
+    height: 160px;
+    padding: 15%;
+}
+
+
+
+/* ------- VIOLETA -------- */
+
+
+.violeta {
+
+    display: flex;
+    grid-column: x1 / x5;
+    grid-row: y3;
+    background-color: rgb(66, 37, 98);
+    padding: 1%;
+}
+
+.footer, .contacto {
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 2%;
+    margin-left: 0.5%;
+    border: 2px solid black;
+    width: 840px;
+    height: 90px;
+    margin-top: 0.2%
+}
+

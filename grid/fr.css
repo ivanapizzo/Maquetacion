@@ -1,0 +1,58 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr; */
+
+
+
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+    width: 100%;
+    height: 950px
+}
+
+.a {
+
+    background-color: rgb(164, 255, 28);
+    color: black;
+}
+
+.b {
+
+    background-color: black;
+    color: white;
+}
+
+.c {
+
+    background-color: rgb(164, 255, 28);
+    color: black;
+}
+
+.d {
+
+    background-color: black;
+    color: white;
+}
+
+.e {
+
+    background-color: rgb(164, 255, 28);
+    color: black;
+}
+
+.f {
+
+    background-color: black;
+    color: white;
+}

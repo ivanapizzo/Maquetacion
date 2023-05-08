@@ -1,0 +1,50 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+.grid {
+
+    display: grid;
+    text-align: center;
+    color: white;
+    grid-template-columns: 720px 240px 720px;
+    grid-template-rows: 480px 480px;
+}
+
+
+.a {
+
+    background-color: greenyellow;
+}
+
+.b {
+
+    background-color: orange;
+}
+
+
+.c {
+
+    background-color: orangered;
+}
+
+
+.d {
+
+    background-color: red;
+}
+
+.e {
+
+    background-color: blue;
+}
+
+
+.f {
+
+    background-color: yellow;
+}
